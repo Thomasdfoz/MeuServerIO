@@ -29,7 +29,7 @@ io.on('connection', (socket) => {
   });
 });
 
-const port = 3000; // Você pode alterar a porta conforme necessário
+const port = 443; // Você pode alterar a porta conforme necessário
 server.listen(port, () => {
   console.log('Servidor Socket.io rodando na porta ' + port);
 });
